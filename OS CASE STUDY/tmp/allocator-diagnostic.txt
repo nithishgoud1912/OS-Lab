@@ -1,0 +1,19 @@
+kalloc
+./kernel/kalloc.c:76
+0000000080000ab6 <kalloc>:
+    80000ab6:	1101                	addi	sp,sp,-32
+    80000ab8:	ec06                	sd	ra,24(sp)
+    80000aba:	e822                	sd	s0,16(sp)
+    80000abc:	e426                	sd	s1,8(sp)
+    80000abe:	1000                	addi	s0,sp,32
+    80000ac0:	00012497          	auipc	s1,0x12
+    80000ac4:	8784b483          	ld	s1,-1928(s1) # 80012338 <kmem+0x18>
+    80000ac8:	c899                	beqz	s1,80000ade <kalloc+0x28>
+    80000aca:	609c                	ld	a5,0(s1)
+    80000acc:	00012717          	auipc	a4,0x12
+    80000ad0:	86f73623          	sd	a5,-1940(a4) # 80012338 <kmem+0x18>
+    80000ad4:	6605                	lui	a2,0x1
+    80000ad6:	4595                	li	a1,5
+    80000ad8:	8526                	mv	a0,s1
+    80000ada:	14a000ef          	jal	80000c24 <memset>
+    80000ade:	8526                	mv	a0,s1

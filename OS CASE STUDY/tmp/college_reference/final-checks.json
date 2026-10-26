@@ -1,0 +1,17 @@
+{
+  "pages": 30,
+  "watermark_on_every_page": true,
+  "original_logo_preserved": true,
+  "reference_unchanged": true,
+  "contribution_shares": [
+    25,
+    25,
+    25,
+    25
+  ],
+  "native_word_rendered": true,
+  "automatic_contents_refreshed": true,
+  "every_page_visually_reviewed": true,
+  "first_12_body_pages_unchanged_after_footer_fix": true,
+  "matching_pdf": "C:\\Users\\HP\\Documents\\OS record\\OS CASE STUDY\\output\\college_format\\Race_Conditions_and_Synchronization_xv6_College_Report.pdf"
+}

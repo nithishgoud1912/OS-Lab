@@ -1,0 +1,13 @@
+
+xv6 kernel is booting
+
+hart 1 starting
+hart 3 starting
+hart 2 starting
+init: starting sh
+$ race_test
+race_test: children=4 pages=8 rounds=200
+scause=0xd sepc=0x80000aca stval=0x505050505050505
+scause=0xd sepc=0x800pan00aca stic: keval=rneltrap
+0QEMU: Terminated
+

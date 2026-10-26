@@ -1,0 +1,13 @@
+{
+  "commit": "f780d7850765d74cbdcd1fff4b822d8829f7c9bd",
+  "cpus": 4,
+  "ram_mib": 128,
+  "children": 4,
+  "pages": 8,
+  "rounds": 200,
+  "attempts_per_phase": 10,
+  "fresh_boot_per_attempt": true,
+  "boot_timeout_seconds": 30,
+  "test_timeout_seconds": 60,
+  "instrumented": false
+}

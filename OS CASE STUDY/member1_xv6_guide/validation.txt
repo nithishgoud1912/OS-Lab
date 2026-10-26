@@ -1,0 +1,19 @@
+GUIDE VALIDATION ONLY - NOT YOUR 30-RUN EXPERIMENT
+Date: 2026-10-24
+Upstream commit: f780d7850765d74cbdcd1fff4b822d8829f7c9bd
+Ubuntu 24.04 WSL2; QEMU 8.2.2; RISC-V GCC 13.3.0
+Fresh upstream clone; added race_test.c and its UPROGS entry.
+Kernel and filesystem build succeeded.
+One clean locked QEMU boot and stress-test smoke run:
+
+qemu-system-riscv64 -machine virt -bios none -kernel kernel/kernel -m 128M -smp 4 -nographic -global virtio-mmio.force-legacy=false -drive file=fs.img,if=none,format=raw,id=x0 -device virtio-blk-device,drive=x0,bus=virtio-mmio-bus.0
+
+xv6 kernel is booting
+
+hart 2 starting
+hart 1 starting
+hart 3 starting
+init: starting sh
+$ race_test
+race_test: children=4 pages=8 rounds=200
+race_test: PASS (all 4 children completed)

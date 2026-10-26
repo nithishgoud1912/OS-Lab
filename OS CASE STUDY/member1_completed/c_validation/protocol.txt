@@ -1,0 +1,4 @@
+Host automation: C; guest test: C
+CPUs=4 RAM=128MiB children=4 pages=8 rounds=200
+Fresh guest per attempt; boot limit=30s; stress limit=60s; no kernel timing instrumentation.
+New C-tool runs are separate from the original 30 recorded attempts.

@@ -1,0 +1,2 @@
+import {PresentationFile} from 'file:///C:/Users/HP/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/@oai/artifact-tool/dist/artifact_tool.mjs';
+import fs from 'node:fs/promises';const p=await PresentationFile.importPptx(await fs.readFile('output/final/Case_Study_14_Race_Conditions_xv6_Final_v2.pptx'));const out=await p.render({slide:[0]});console.log(Array.isArray(out),typeof out,out.length,Object.keys(out[0]||{}));console.log(out[0]?.image?.constructor?.name,out[0]?.preview?.constructor?.name,out[0]?.blob?.constructor?.name);

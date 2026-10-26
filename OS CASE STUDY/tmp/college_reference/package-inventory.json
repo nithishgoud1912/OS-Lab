@@ -1,0 +1,110 @@
+{
+  "[Content_Types].xml": {
+    "size": 2659,
+    "sha256": "972fe887013c4123e3c1fa7a9c54820faf65f53a7972c8dfc760c53be70f607a"
+  },
+  "_rels/.rels": {
+    "size": 590,
+    "sha256": "e19238d7a71fa7a2490776252686f70e2de6238c87cd509b5e3a3cc07c2ea4df"
+  },
+  "word/document.xml": {
+    "size": 677479,
+    "sha256": "7fdff997e3b5b2b7ef3163df835f5b5e902be4414e7a3e53819d1d485d6a1851"
+  },
+  "word/_rels/document.xml.rels": {
+    "size": 2130,
+    "sha256": "f9833328663f69f02a3f94c74254673b9f1953ccdc882e06012cd379dd21298f"
+  },
+  "word/footnotes.xml": {
+    "size": 3196,
+    "sha256": "f0ef5663ae6d2b4d6e48cf9224d1f14ab8234dc6ea323d95900d6552145d7849"
+  },
+  "word/endnotes.xml": {
+    "size": 3190,
+    "sha256": "ea693fefecbe736a93d95f58d5850624b43d4e0fe9654c6b2d065cac6e636f0e"
+  },
+  "word/header1.xml": {
+    "size": 2818,
+    "sha256": "f5ad8c6a5658e7f00ca7892611b21309a81fadf84678284980adb72302d849c5"
+  },
+  "word/footer1.xml": {
+    "size": 3365,
+    "sha256": "6f1742a0f075fc673deaaf50d38da08bafbec7511d153b7cba3d3570b8bb3b5b"
+  },
+  "word/header2.xml": {
+    "size": 4033,
+    "sha256": "85efe185fdd6760c9b4e45f5482ffddb0920269cb6ac930693e535144a7eff81"
+  },
+  "word/header3.xml": {
+    "size": 13378,
+    "sha256": "71caa6a77f46234ed4b9ec50cdca95177418169f5e81b98f51d688b41501e66d"
+  },
+  "word/footer2.xml": {
+    "size": 10216,
+    "sha256": "576b5930327d1a29acf8652ebb11d54359c70d403de666cb7754f079a782d647"
+  },
+  "word/header4.xml": {
+    "size": 4033,
+    "sha256": "7f67359ea8545ca6d3bf5b7cddd0106107a79a8e6cf1aa644b6f52e80d9aa8df"
+  },
+  "word/_rels/header2.xml.rels": {
+    "size": 289,
+    "sha256": "94bca6aec3177c3b64686e1248ecfb39e9750dc067c2274af33e6b442d1f6617"
+  },
+  "word/_rels/header3.xml.rels": {
+    "size": 289,
+    "sha256": "94bca6aec3177c3b64686e1248ecfb39e9750dc067c2274af33e6b442d1f6617"
+  },
+  "word/_rels/header4.xml.rels": {
+    "size": 289,
+    "sha256": "94bca6aec3177c3b64686e1248ecfb39e9750dc067c2274af33e6b442d1f6617"
+  },
+  "word/media/image1.png": {
+    "size": 193963,
+    "sha256": "96278738f7df0df59498839c4f0bea96bdec23c0ee5de40b24f0b778be5e719a"
+  },
+  "word/theme/theme1.xml": {
+    "size": 7257,
+    "sha256": "41b2a28d28bf44cf3f0e4cd9f7e653007efbf22cd54d2a6cf9320f2c76be540c"
+  },
+  "word/settings.xml": {
+    "size": 7769,
+    "sha256": "75f8d60693e10ed3434702dcdd3e1888d3c42aeaa7032f1d89c9611e5b27e9b5"
+  },
+  "customXml/item1.xml": {
+    "size": 289,
+    "sha256": "b30b8fd758aa47aada70ee7d8d8287349d6a21eb03c79bcb2e8930a1789022cc"
+  },
+  "customXml/itemProps1.xml": {
+    "size": 341,
+    "sha256": "e7ca5db9ff51fe827a3a3e581307215413037540cb9f46f3bb39c8beae9a4bf0"
+  },
+  "word/numbering.xml": {
+    "size": 108213,
+    "sha256": "349eef18fff6f47f512ffcca49b79227c86620d86f23a91935cbdc28922eee18"
+  },
+  "word/styles.xml": {
+    "size": 33343,
+    "sha256": "e688f9db119b2a322309fb4f3e9d7882b30e755eea79f963c840c9561acb8fe0"
+  },
+  "word/webSettings.xml": {
+    "size": 1083,
+    "sha256": "4a225c07c64feb7f5e4ef8b4444bfe94c0f81e35cb00632fef988cf909172f82"
+  },
+  "word/fontTable.xml": {
+    "size": 4243,
+    "sha256": "cc446f096b9e2436b023533ec5b0de69601b0f48e5e6c570eab79012bc1ed8f2"
+  },
+  "docProps/core.xml": {
+    "size": 731,
+    "sha256": "767b329c4d758ed178bf2cdd4b0982134be90dc522fe1b94d468072e6a5f1f39"
+  },
+  "docProps/app.xml": {
+    "size": 1000,
+    "sha256": "5d961038a8f24e7328372ffba1b07656b4d73c554a1869d0c00c98ee828041c2"
+  },
+  "customXml/_rels/item1.xml.rels": {
+    "size": 296,
+    "sha256": "80482f86e196171d66001e0e74d1900408a3aaf2463e54005d251b5f2db9a0b0"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "attempts": 30,
+  "phase_counts": {
+    "locked": {
+      "PASS": 10
+    },
+    "unlocked": {
+      "PANIC_OR_TRAP": 6,
+      "CORRUPTION": 1,
+      "TEST_FAILURE": 2,
+      "TIMEOUT": 1
+    },
+    "restored": {
+      "PASS": 10
+    }
+  },
+  "restoration_diff_empty": true,
+  "report_pages": 28,
+  "video_sha256": "98ddb707ac7837d3420699a1523ab8c4cf0496c896e2e7195fb7dc99e96452bf"
+}

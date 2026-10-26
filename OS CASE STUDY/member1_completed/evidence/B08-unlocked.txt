@@ -1,0 +1,16 @@
+
+xv6 kernel is booting
+
+hart 1 starting
+hart 2 starting
+hart 3 starting
+init: starting sh
+$ race_test
+race_test: children=4 pages=8 rounds=200
+chchild 2: allocaitldi on3 :failed at round 3
+ alrlaoccea_test: pid=6 failed sttatus=1
+ion failed at round 2
+race_test: pid=7 failed status=1
+race_test: FAIL (2 child failures; setup_failed=0)
+$ QEMU: Terminated
+

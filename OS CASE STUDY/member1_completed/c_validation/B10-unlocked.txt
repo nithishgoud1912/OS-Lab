@@ -1,0 +1,20 @@
+
+xv6 kernel is booting
+
+hart 1 starting
+hart 3 starting
+hart 2 starting
+init: starting sh
+$ race_test
+race_test: children=4 pages=8 rounds=200
+child 2: CORRUPccchhhiilldTdi I1 ON0: :  aCllOdRl oc3: aaRrUtoPuiToInO Nf arioluendd= na1llocatit4do9n  fo =afrfo4sie to=u1n2d2 8f1l0e
+fs8e exdpercatecde= 1t _g=aot tte2r4s=5t7:0 o6p uindexp=
+d5e  cftailede ds1t0a=t
+u3s=1 
+gorta=1
+ce_test: pid=4 failed status=1
+race_test: pid=6 failed status=1
+race_test: pid=7 failed status=1
+race_test: FAIL (4 child failures; setup_failed=0)
+$ QEMU: Terminated
+

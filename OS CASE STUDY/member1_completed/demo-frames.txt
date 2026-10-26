@@ -1,0 +1,15 @@
+file 'figures/01-method.png'
+duration 5
+file 'figures/02-locked.png'
+duration 5
+file 'figures/03-lock-removal.png'
+duration 5
+file 'figures/04-unlocked.png'
+duration 5
+file 'figures/05-restoration.png'
+duration 5
+file 'figures/06-restored.png'
+duration 5
+file 'figures/07-results.png'
+duration 5
+file 'figures/07-results.png'

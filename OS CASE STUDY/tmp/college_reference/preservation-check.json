@@ -1,0 +1,22 @@
+{
+  "unchanged_parts": [
+    "word/footnotes.xml",
+    "word/endnotes.xml",
+    "word/media/image1.png",
+    "word/theme/theme1.xml",
+    "customXml/item1.xml",
+    "customXml/itemProps1.xml",
+    "word/webSettings.xml",
+    "word/fontTable.xml",
+    "docProps/app.xml"
+  ],
+  "unchanged_logo": true,
+  "intentional_changes": [
+    "document body and section layout",
+    "styles for required report typography",
+    "header record metadata",
+    "footer page field",
+    "field refresh settings",
+    "core report metadata"
+  ]
+}

@@ -1,0 +1,17 @@
+
+xv6 kernel is booting
+
+hart 3 starting
+hart 2 starting
+hart 1 starting
+init: starting sh
+$ race_test
+race_test: children=4 pages=8 rounds=200
+child 0: CORRUPTscause=0xd sepc=0x80000aca stval=0x505050505050505
+panic: kerneltrap
+ION round=198 offset=8192 expected=1 got=2
+rcahciled 3:_ CORRUPTION round=31 offset=20480 expected=4 got=0
+test: pid=4 failed status=1
+race_test: pid=7 failed status=1
+QEMU: Terminated
+
